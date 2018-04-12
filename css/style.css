@@ -1,4 +1,28 @@
 #passwordbox {
+  margin: auto;
+  width: 25%;
+  align: center;
+  color: black;
+  height: 100%;
+}
+
+#password {
   margin: 3px;
   color: black;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: gray;
+  border-radius: 5px;
+  min-width: 25%;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }

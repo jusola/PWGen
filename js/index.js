@@ -29,7 +29,6 @@ function SelectWords(){
   }
   if(password!=""){
     document.getElementById("password").innerHTML = password;
-    console.log(password);
   }else{
     console.log("password generation failed");
   }
