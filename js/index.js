@@ -1,4 +1,5 @@
 var dictionary = "";
+const wordCount = 3
 
 function StartGen(){
   $.getJSON( "dictionary/words.json", function( json ) {
@@ -22,7 +23,7 @@ function getRandomInt(min, max) {
 
 function SelectWords(){
   var password = "";
-  for (var i = 0; i < 2; i++){
+  for (var i = 0; i < wordCount; i++){
     var tempWord = dictionary.array[getRandomInt(0, 274917)];
     tempWord = tempWord.charAt(0).toUpperCase() + tempWord.slice(1);
     password+=tempWord;
